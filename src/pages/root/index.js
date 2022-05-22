@@ -110,9 +110,9 @@ export function RootPage() {
               <Box pt={3}>
                 <ContactItem 
                   name="Email"
-                  detail="robin.holzinger@tum.de (primary)"
+                  detail="me@robinh.xyz (primary)"
                   detail2="robin.holzinger@finn.auto"
-                  link="mailto:robin.holzinger@tum.de"
+                  link="mailto:me@robinh.xyz"
                   link2="mailto:robin.holzinger@finn.auto"
                 />
                 <ContactItem 
@@ -121,7 +121,7 @@ export function RootPage() {
                   link="https://www.linkedin.com/in/robin-holzinger/"
                 />
                 <ContactItem 
-                  name="Email"
+                  name="GitHub"
                   detail="@nerotyc"
                   link="https://github.com/nerotyc"
                 />

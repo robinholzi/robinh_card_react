@@ -100,8 +100,8 @@ export function ImprintPage() {
                 <ContactItem
                   extended 
                   name="Email"
-                  detail="robin.holzinger@tum.de"
-                  link="mailto:robin.holzinger@tum.de"
+                  detail="me@robinh.xyz"
+                  link="mailto:me@robinh.xyz"
                 />
                 <ContactItem 
                   extended
