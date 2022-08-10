@@ -18,8 +18,9 @@ import Link from '@mui/material/Link';
 import { createTheme, makeStyles, styled, ThemeProvider } from '@mui/material/styles';
 import { Avatar, Paper } from '@mui/material';
 import { color_bg_white } from '../../theme/colors.ts';
-import { PositionItem } from '../../components/position_item';
+import { PositionItem, PositionItemAward } from '../../components/position_item';
 import { ContactItem } from '../../components/contact_item';
+import { SocialFooter } from '../../components/social_footer';
 
 
 export function RootPage() {
@@ -97,39 +98,41 @@ export function RootPage() {
               </Box>
               <Box pt={2}>
                 <PositionItem 
-                  position="Software Engineering Intern"
+                  position="Software Engineer"
                   company="FINN"
                   link="https://www.finn.auto/"
                 />
                 <PositionItem 
                   position="CS Student"
                   company="TUM"
-                  link="https://www.tum.de/"
+                  link="https://www.tum.de/en/"
+                />
+              </Box>
+              <Box pt={2} alignItems={'center'}>
+                <PositionItemAward 
+                  // pre_text=""
+                  position="best-in-tum"
+                  post_text="(top 2% @ TUM)"
+                  link="https://www.in.tum.de/en/in/current-students/advising-and-support/mentoring-and-support-programs/foerderprogramme-der-tum/promotion-of-outstanding-students/"
+                />
+                <PositionItemAward 
+                  // pre_text=""
+                  position="Max Weber"
+                  post_text="scholarship holder"
+                  link="https://www.elitenetzwerk.bayern.de/en/home/funding-programs/max-weber-program"
                 />
               </Box>
               <Box pt={3}>
                 <ContactItem 
                   name="Email"
-                  detail="me@robinh.xyz (primary)"
+                  detail="me@robinh.xyz"
                   detail2="robin.holzinger@finn.auto"
                   link="mailto:me@robinh.xyz"
-                  link2="mailto:robin.holzinger@finn.auto"
+                  // link2="mailto:robin.holzinger@finn.auto"
                 />
-                <ContactItem 
-                  name="LinkedIn"
-                  detail="Robin Holzinger"
-                  link="https://www.linkedin.com/in/robin-holzinger/"
-                />
-                <ContactItem 
-                  name="GitHub"
-                  detail="@nerotyc"
-                  link="https://github.com/nerotyc"
-                />
-                <ContactItem 
-                  name="Website"
-                  detail="robinh.xyz"
-                  link="https://robinh.xyz/"
-                />
+              </Box>
+              <Box pt={3}>
+                <SocialFooter />
               </Box>
             </Box>
           </Box>

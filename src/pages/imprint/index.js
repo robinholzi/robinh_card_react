@@ -91,16 +91,16 @@ export function ImprintPage() {
                 <Box pl={10} pr={10} pb={2}>
                   <Typography variant='h2' fontSize={38} fontWeight="500" color={color_text_dark}>Contact Information</Typography>
                 </Box>
-                <ContactItem 
+                {/* <ContactItem 
                   extended
                   name="Telephone"
-                  detail="+49 174 9769452"
+                  detail=""
                   link=""
-                />
+                /> */}
                 <ContactItem
                   extended 
                   name="Email"
-                  detail="me@robinh.xyz"
+                  detail="webhost@robinh.xyz"
                   link="mailto:me@robinh.xyz"
                 />
                 <ContactItem 

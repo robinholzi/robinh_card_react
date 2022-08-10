@@ -4,6 +4,7 @@ export const color_bg_white = "#ffffff";
 export const color_accent = "#FFAB40"
 
 export const color_link = color_accent;
+export const color_link_darker = "#d48b2f";
 export const color_text_light = "#FFFFFF";
 export const color_text_dark = "#000000";
 
