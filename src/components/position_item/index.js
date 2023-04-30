@@ -7,13 +7,17 @@ export function PositionItem({position, company, link}) {
 
   return (
     <>
-      <Box pt={0.8} pb={0.8}>
+      <Box pt={0.2} pb={0.2}>
         <Typography variant="body2" align="center" color={color_bg_dark} fontWeight={500} fontSize={21}>
           {position}
           <a href={link} target="_blank"
             style={{ textDecoration: 'none', color: color_link, marginLeft: "16px", fontWeight: 600 }}>
-            <span style={{ marginRight: "16px" }}>@</span>
-            <span>{company}</span>
+            { (company || "").length > 0 ? (
+              <span>
+                <span style={{ marginRight: "16px" }}>@</span>
+                <span>{company}</span>
+              </span>
+            ) : ""} 
           </a>
         </Typography>
       </Box>
