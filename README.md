@@ -1,4 +1,6 @@
-# robinh_card
+# robinh_card_react (OUTDATED)
+
+superceded by [robinh_card](https://github.com/robinholzi/robinh_card/)
 
 Personal business card written in js/React.
 
